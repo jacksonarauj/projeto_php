@@ -1,0 +1,749 @@
+@charset "utf-8"
+
+*{margin:0px;padding:0px;}
+#container_tela{
+		
+		
+		background-image: url("image/fundo_6.jpg");
+		background-position:left;
+	   background-color:black;
+	   border:2px black;
+	   background-repeat;
+
+}
+
+#container{
+	/* largura*/
+		width:1000px;
+
+		min-height:1500px;
+		margin-left:auto;
+		margin-right:auto;
+		
+		border:1px transparent ;
+}
+#head{
+	width:1000px;
+	height:200px;
+     background-color:black;
+	border:2px #462e01;
+	
+}
+#menu{
+ 	margin-top:0px;
+	height:32px;
+	background-color: #462e01;
+	border:0px black;
+}
+#logo{
+ position:absolute;
+    left:270px;
+    top:20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+#icone_casa{
+	
+    position:absolute;
+   float:left;
+    top:230px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
+#menu_lista {
+/*retira o estilo da lista "menu" nesse caso o pontinho */
+     float :center 10px;
+	list-style:none; 
+	font-size:20px;
+	background-color:green;
+	text-align:center;
+	vertical-align:middle;
+
+}
+ /*esse comando trabalha dentro do LI */
+#menu_lista li {
+	float:left;
+	border-right:50px solid  #462e01;
+    border-left:50px solid  #462e01;
+}
+ /*esse comando trabalha dentro do LI */
+#menu_lista li {
+	float:left ;
+	border-right:50px solid  #462e01;
+
+}
+
+#menu_lista li a:hover{
+	/*muda de cor quando passa o mouse encima */
+	background-color:#f0f0f0;
+	color: #462e01;
+	/*aumenta a font quando passa o mouse encima */
+	font-size:20px;
+}
+
+#corpo{
+	margin-top:20px;
+	height:1320px;
+	background-color: transparent;
+}
+#container_corpo{
+	/*largura */
+	width :993px;
+	/*altura*/
+	height:500px;
+	
+	margin-bottom:10px;
+	/*borda do conteiner */
+	border:3px solid #462e01;
+	}
+	
+	#container-corpo2
+	{
+		 position:absolute;
+    left:645px;
+    top:283px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+	#container-corpo3
+	{
+		 position:absolute;
+    left:145px;
+    top:799px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+
+	#container-corpo4
+	{
+		 position:absolute;
+    left:641px;
+    top:799px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+	#container_corpo2{
+		width:490px;
+		height:793px;
+		margin-left:auto;
+		margin-right:auto;
+		
+		float:left;
+		border:3px solid #462e01;
+		background-image:url("image/corpo2.jpg");
+
+	}#container_corpo3{
+		width:497px;
+		height:793px;
+		margin-left:auto;
+		margin-left:auto;
+		
+		float:left;
+		border:3px solid #462e01;	
+		background-image:url("image/corpo3.jpg");
+	}
+	#footer{
+	width:991px;
+	height:100px;
+	background-color:black; 
+	border:4px solid #462e01;
+	
+}
+
+	#footer_redes2{
+	
+    position:absolute;
+    left:670px;
+    top:1630px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+#footer_redes3{
+	
+    position:absolute;
+    left:723px;
+    top:1630px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+	#footer_redes4{
+	
+    position:absolute;
+    left:776px;
+    top:1630px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+    #footer_redes5{
+	
+    position:absolute;
+    left:829px;
+    top:1630px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+	
+
+
+#imglogo{
+	width:1200px;
+	height:200px;
+	
+}
+
+/*TELA INICIAL*/
+#container_tela_inicial{
+		
+		background-position:left;
+	   background-color:black;
+	   border:2px black;
+	   background-repeat;
+
+}
+
+#container_inicial{
+	/* largura*/
+		width:1000px;
+
+		min-height:1500px;
+		margin-left:auto;
+		margin-right:auto;
+		
+		border:1px transparent ;
+}
+
+
+#menu_inicial{
+ 	margin-top:0px;
+	height:32px;
+	background-color: #462e01;
+	border:0px black;
+}
+#logo_inicial{
+ position:absolute;
+    left:270px;
+    top:20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+#icone_casa_inicial{
+	
+    position:absolute;
+   float:left;
+    top:230px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
+#menu_lista_inicial {
+/*retira o estilo da lista "menu" nesse caso o pontinho */
+     float :center 10px;
+	list-style:none; 
+	font-size:20px;
+	background-color:green;
+	text-align:center;
+	vertical-align:middle;
+
+}
+ /*esse comando trabalha dentro do LI */
+#menu_lista_inicial li {
+	float:left;
+	border-right:50px solid  #462e01;
+    border-left:50px solid  #462e01;
+}
+ /*esse comando trabalha dentro do LI */
+#menu_lista_inicial li {
+	float:left ;
+	border-right:50px solid  #462e01;
+
+}
+
+#menu_lista_inicial li a:hover{
+	/*muda de cor quando passa o mouse encima */
+	background-color:#f0f0f0;
+	color: #462e01;
+	/*aumenta a font quando passa o mouse encima */
+	font-size:20px;
+}
+
+#corpo_inicial{
+	margin-top:20px;
+	height:1320px;
+	background-color: black;
+}
+#container_corpo_inicial{
+	/*largura */
+	width :993px;
+	/*altura*/
+	height:500px;
+	
+	margin-bottom:10px;
+	/*borda do conteiner */
+	border:3px solid #462e01;
+	}
+
+	#infatil{
+
+
+	}
+	#masculino{
+
+
+	}
+	#barba{
+		 position:absolute;
+    left:680px;
+    top:264px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+	}
+	#completo{
+		 position:absolute;
+    left:680px;
+    top:718px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+	}
+		
+
+                   /*  CADASTRO*/
+
+      #container_tela_CADASTRO{
+	   width:1272px;
+	   height:980px;
+	   background-position:left;
+	   background-color:black;
+	   border:2px black;
+	   background-repeat;
+
+}
+
+#container_CADASTRO{
+	/* largura*/
+	
+		width:1000px;
+
+		min-height:60px;
+		margin-left:auto;
+		margin-right:auto;
+
+		
+		border:1px;
+}
+
+
+#menu_CADASTRO{
+ 	margin-top:0px;
+	height:32px;
+	background-color: #462e01;
+	border:0px black;
+}
+#logo_CADASTRO{
+ position:absolute;
+    left:270px;
+    top:20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+#icone_casa_CADASTRO{
+	
+    position:absolute;
+   float:left;
+    top:230px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
+#menu_lista_CADASTRO {
+/*retira o estilo da lista "menu" nesse caso o pontinho */
+     float :center 10px;
+	list-style:none; 
+	font-size:20px;
+	background-color:green;
+	text-align:center;
+	vertical-align:middle;
+
+}
+ /*esse comando trabalha dentro do LI */
+#menu_lista_CADASTRO li {
+	float:left;
+	border-right:50px solid  #462e01;
+    border-left:50px solid  #462e01;
+}
+ /*esse comando trabalha dentro do LI */
+#menu_lista_CADASTRO li {
+	float:left ;
+	border-right:50px solid  #462e01;
+
+}
+
+#menu_lista_CADASTRO li a:hover{
+	/*muda de cor quando passa o mouse encima */
+	background-color:#f0f0f0;
+	color: #462e01;
+	/*aumenta a font quando passa o mouse encima */
+	font-size:20px;
+}
+
+#corpo_CADASTRO{
+	margin-top:20px;
+	height:600px;
+	background-color:#462e01 ;
+}
+#container_corpo_CADASTRO{
+	/*largura */
+	width :993px;
+	/*altura*/
+	height:500px;
+	margin-bottom:10px;
+	/*borda do conteiner */
+	border:3px solid #462e01;
+	}
+	#footer_CADASTRO{
+	width:991px;
+	height:100px;
+	background-color:black; 
+	border:4px solid #462e01;
+	
+}
+
+	#footer_redes2_CADASTRO{
+	
+    position:absolute;
+    left:670px;
+    top:900px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+#footer_redes3_CADASTRO{
+	
+    position:absolute;
+    left:723px;
+    top:900px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+	#footer_redes4_CADASTRO{
+	
+    position:absolute;
+    left:776px;
+    top:900px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+    #footer_redes5_CADASTRO{
+	
+    position:absolute;
+    left:829px;
+    top:900px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+     
+
+          /*LOCALIZAÇÃO*/
+                #container_tela_localização{
+	   width:1272px;
+	   height:980px;
+	   background-position:left;
+	   background-color:black;
+	   border:2px black;
+	   background-repeat;
+
+}
+
+#container_localização{
+	/* largura*/
+	
+		width:1000px;
+
+		min-height:60px;
+		margin-left:auto;
+		margin-right:auto;
+
+		
+		border:1px;
+}
+
+
+#menu_localização{
+ 	margin-top:0px;
+	height:32px;
+	background-color: #462e01;
+	border:0px black;
+}
+#logo_localização{
+ position:absolute;
+    left:270px;
+    top:20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+#icone_casa_localização{
+	
+    position:absolute;
+   float:left;
+    top:230px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
+#menu_lista_localização {
+/*retira o estilo da lista "menu" nesse caso o pontinho */
+     float :center 10px;
+	list-style:none; 
+	font-size:20px;
+	background-color:green;
+	text-align:center;
+	vertical-align:middle;
+
+}
+ /*esse comando trabalha dentro do LI */
+#menu_lista_localização li {
+	float:left;
+	border-right:50px solid  #462e01;
+    border-left:50px solid  #462e01;
+}
+ /*esse comando trabalha dentro do LI */
+#menu_lista_localização li {
+	float:left ;
+	border-right:50px solid  #462e01;
+
+}
+
+#menu_lista_localização li a:hover{
+	/*muda de cor quando passa o mouse encima */
+	background-color:#f0f0f0;
+	color: #462e01;
+	/*aumenta a font quando passa o mouse encima */
+	font-size:20px;
+}
+
+#corpo_localização{
+	margin-top:20px;
+	height:600px;
+	background-color: #462e01;
+}
+#container_corpo_localização{
+	/*largura */
+	width :993px;
+	/*altura*/
+	height:500px;
+	margin-bottom:10px;
+	/*borda do conteiner */
+	border:0px solid #462e01;
+	}
+
+	#footer_localização{
+	width:991px;
+	height:100px;
+	background-color:black; 
+	border:4px solid #462e01;
+	
+}
+
+	#footer_redes2_localização{
+	
+    position:absolute;
+    left:670px;
+    top:900px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+#footer_redes3_localização{
+	
+    position:absolute;
+    left:723px;
+    top:900px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+	#footer_redes4_localização{
+	
+    position:absolute;
+    left:776px;
+    top:900px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+    #footer_redes5_localização{
+	
+    position:absolute;
+    left:829px;
+    top:900px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
+                     /*CONTATO*/
+
+
+      #container_tela_contato{
+	   width:1272px;
+	   height:980px;
+	   background-position:left;
+	   background-color:black;
+	   border:2px black;
+	   background-repeat;
+
+}
+
+#container_contato{
+	/* largura*/
+	
+		width:1000px;
+
+		min-height:60px;
+		margin-left:auto;
+		margin-right:auto;
+
+		
+		border:1px;
+}
+
+
+#menu_contato{
+ 	margin-top:0px;
+	height:32px;
+	background-color: #462e01;
+	border:0px black;
+}
+#logo_contato{
+ position:absolute;
+    left:270px;
+    top:20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+#icone_casa_contato{
+	
+    position:absolute;
+   float:left;
+    top:230px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
+#menu_lista_contato{
+/*retira o estilo da lista "menu" nesse caso o pontinho */
+     float :center 10px;
+	list-style:none; 
+	font-size:20px;
+	background-color:green;
+	text-align:center;
+	vertical-align:middle;
+
+}
+ /*esse comando trabalha dentro do LI */
+#menu_lista_contato li {
+	float:left;
+	border-right:50px solid  #462e01;
+    border-left:50px solid  #462e01;
+}
+ /*esse comando trabalha dentro do LI */
+#menu_lista_contato li {
+	float:left ;
+	border-right:50px solid  #462e01;
+
+}
+
+#menu_lista_contato li a:hover{
+	/*muda de cor quando passa o mouse encima */
+	background-color:#f0f0f0;
+	color: #462e01;
+	/*aumenta a font quando passa o mouse encima */
+	font-size:20px;
+}
+
+#corpo_contato{
+	margin-top:20px;
+	height:600px;
+	background-color:#462e01 ;
+}
+#container_corpo_contato{
+	/*largura */
+	width :500px;
+	/*altura*/
+	height:500px;
+	margin-bottom:10px;
+	/*borda do conteiner */
+	border:3px solid #462e01;
+	position:center center;
+	}
+
+	p{
+		font-size:25px;
+	text-align:center;
+	color:#fff;
+		
+	}
+
+	#footer_contato{
+	width:991px;
+	height:100px;
+	background-color:black; 
+	border:4px solid #462e01;
+	
+}
+
+	#footer_redes2_contato{
+	
+    position:absolute;
+    left:670px;
+    top:900px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+#footer_redes3_contato{
+	
+    position:absolute;
+    left:723px;
+    top:900px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+	#footer_redes4_contato{
+	
+    position:absolute;
+    left:776px;
+    top:900px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+    #footer_redes5_contato{
+	
+    position:absolute;
+    left:829px;
+    top:900px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+     
+
+             
+
+	
