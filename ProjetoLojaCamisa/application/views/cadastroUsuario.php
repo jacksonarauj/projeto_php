@@ -1,4 +1,4 @@
-	<form method="POST" action="index.php/Teste/Inserir" name="FormSenha" onsubmit="return validarSenha();">
+	<form method="POST" action="../Teste/Inserir" name="FormSenha" onsubmit="return validarSenha();">
 								<div class="top-margin">
 									<label>Nome</label>
 									<input type="text" class="form-control" name="nome_cadastro">
